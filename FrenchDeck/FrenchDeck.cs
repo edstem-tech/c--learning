@@ -3,7 +3,7 @@
 public class FrenchDeck
 {
     private readonly List<Card> _cards = new List<Card>(52);
-    private static readonly List<String> _ranks = new List<String>();
+    private readonly static List<String> _ranks = new List<String>();
     private static readonly Random _random = new Random();
 
     static FrenchDeck()
@@ -14,9 +14,9 @@ public class FrenchDeck
         _ranks.AddRange(new String[] { "J", "Q", "K", "A" });
     }
 
+    // default constructor
     public FrenchDeck()
     {
-
         var suites = Enum.GetValues<Suite>();
 
         for (int j = 0; j < suites.Length; j++)
