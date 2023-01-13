@@ -1,4 +1,6 @@
-﻿public class CardComparator : Comparer<Card>
+﻿namespace FrenchDeck;
+
+public class CardComparator : Comparer<Card>
 {
     public override int Compare(Card? c1, Card? c2)
     {
@@ -8,11 +10,11 @@
         int r1 = 0, r2 = 0;
         if (c1 != null)
         {
-            r1 = FrenchDeck.Ranks.IndexOf(c1.rank) * 4 + (int)c1.suite;
+            r1 = Deck.Ranks.IndexOf(c1.Rank) * 4 + (int)c1.Suite;
         }
         if (c2 != null)
         {
-            r2 = FrenchDeck.Ranks.IndexOf(c2.rank) * 4 + (int)c2.suite;
+            r2 = Deck.Ranks.IndexOf(c2.Rank) * 4 + (int)c2.Suite;
         }
 
         return r1 - r2;

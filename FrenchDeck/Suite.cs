@@ -1,4 +1,6 @@
-﻿public enum Suite
+﻿namespace FrenchDeck;
+
+public enum Suite
 {
     Clubs = 0,
     Diamonds = 1,

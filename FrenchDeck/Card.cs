@@ -1,1 +1,3 @@
-﻿public record Card (String rank, Suite suite);
+﻿namespace FrenchDeck;
+
+public record Card (string Rank, Suite Suite);

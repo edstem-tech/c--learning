@@ -1,4 +1,6 @@
-﻿FrenchDeck deck = new FrenchDeck();
+﻿using FrenchDeck;
+
+var deck = new Deck();
 Console.WriteLine("---------- Deck          ----------");
 deck.Print();
 Console.WriteLine("---------- Random Card   ----------");
@@ -10,8 +12,8 @@ Console.WriteLine("---------- Shuffle Cards ----------");
 deck.ShuffleCards();
 deck.Print();
 //// Debug to compare cards
-c1 = new Card(FrenchDeck.Ranks[0], Suite.Clubs);
-c2 = new Card(FrenchDeck.Ranks[12], Suite.Spades);
+c1 = new Card(Deck.Ranks[0], Suite.Clubs);
+c2 = new Card(Deck.Ranks[12], Suite.Spades);
 var compare = new CardComparator();
 compare.Compare(c1, c2);
 Console.WriteLine("---------- Sort Deck ----------");
