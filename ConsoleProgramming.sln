@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenchDeck", "FrenchDeck\Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{AB07B41E-587A-4634-A2D2-D5AED59F7EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankStatementAnalyzer", "BankStatementAnalyzer\BankStatementAnalyzer.csproj", "{33CE281E-3A29-41CB-B764-49C9F9BA8738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankStatementAnalyzerOops", "BankStatementAnalyzerOops\BankStatementAnalyzerOops.csproj", "{E6EDA50F-B56B-4158-913B-28C43B52A247}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{AB07B41E-587A-4634-A2D2-D5AED59F7EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB07B41E-587A-4634-A2D2-D5AED59F7EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB07B41E-587A-4634-A2D2-D5AED59F7EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CE281E-3A29-41CB-B764-49C9F9BA8738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CE281E-3A29-41CB-B764-49C9F9BA8738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CE281E-3A29-41CB-B764-49C9F9BA8738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CE281E-3A29-41CB-B764-49C9F9BA8738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EDA50F-B56B-4158-913B-28C43B52A247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EDA50F-B56B-4158-913B-28C43B52A247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EDA50F-B56B-4158-913B-28C43B52A247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EDA50F-B56B-4158-913B-28C43B52A247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
