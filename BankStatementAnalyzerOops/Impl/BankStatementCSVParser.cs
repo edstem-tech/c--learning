@@ -1,6 +1,6 @@
 namespace BankStatementAnalyzerOops.Impl;
 
-public class BankStatementCSVParser : IBankStatementParser
+public class BankStatementCsvParser : IBankStatementParser
 {
     public BankTransaction Parse(string line)
     {

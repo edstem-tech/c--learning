@@ -2,7 +2,7 @@
 using BankStatementAnalyzerOops.Impl;
 
 
-var csvParser = new BankStatementCSVParser();
+var csvParser = new BankStatementCsvParser();
 var analyzer = new BankStatementAnalyzer(csvParser);
 analyzer.Analyze(@"../../../Data/test.csv");
 
